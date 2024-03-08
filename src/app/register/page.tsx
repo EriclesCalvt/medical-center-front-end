@@ -1,10 +1,10 @@
-import CardFormLogin from "@/components/CardFormLogin"
+import CardFormRegister from "@/components/CardFormRegister";
 
-export default function Login(){
+export default function Register(){
   return (
     <main className="bg-background-card h-screen flex items-center justify-center">
       <div>
-        <CardFormLogin />
+        <CardFormRegister />
       </div>
     </main>
   )

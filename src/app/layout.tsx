@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import '@fontsource-variable/quicksand';
 import '@fontsource-variable/league-spartan';
 
-import Header from "@/_components/header";
-import Footer from "@/_components/footer";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Centro Médico",

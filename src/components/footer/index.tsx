@@ -13,32 +13,32 @@ export default function Footer(){
         <Image
             alt="Logo da CMED" 
             src={LogoImage} 
-            height={200}
+            height={150}
           />
       </div>
       <div className="flex gap-60 pt-10">
         <div className="flex flex-col gap-2">
           <p className="text-2xl font-bold">Início</p>
-          <p>PORQUE NOS ESCOLHER</p>
-          <p>ESPECIALIDADES</p>
-          <p>PLANOS</p>
+          <p className="cursor-pointer hover:text-xl transition-all">PORQUE NOS ESCOLHER</p>
+          <p className="cursor-pointer hover:text-xl transition-all">ESPECIALIDADES</p>
+          <p className="cursor-pointer hover:text-xl transition-all">PLANOS</p>
         </div>
         <div className="flex flex-col gap-2">
           <p className="text-2xl font-bold">Suporte</p>
-          <p>FAQ</p>
-          <p>TELEFONE</p>
-          <p>CHAT</p>
+          <p className="cursor-pointer hover:text-xl transition-all">FAQ</p>
+          <p className="cursor-pointer hover:text-xl transition-all">TELEFONE</p>
+          <p className="cursor-pointer hover:text-xl transition-all">CHAT</p>
         </div>
       </div>
       <div className="flex flex-col gap-6 pt-10 ">
         <div className="flex justify-around">
-          <div className="text-5xl cursor-pointer">
+          <div className="text-5xl cursor-pointer hover:text-6xl transition-all">
             <IoLogoWhatsapp />
           </div>
-          <div className="text-5xl cursor-pointer">
+          <div className="text-5xl cursor-pointer hover:text-6xl transition-all">
             <FaInstagramSquare />
           </div>
-          <div className="text-5xl cursor-pointer">
+          <div className="text-5xl cursor-pointer hover:text-6xl transition-all">
             <FaFacebook />
           </div>
         </div>

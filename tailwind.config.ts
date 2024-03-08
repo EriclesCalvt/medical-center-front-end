@@ -14,6 +14,7 @@ const config: Config = {
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
+      '6xl': '4.000rem',
     },
     letterSpacing: {
       wide : ".15em",

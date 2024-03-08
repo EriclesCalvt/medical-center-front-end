@@ -1,6 +1,7 @@
 import ImageHome from "@/app/_assets/PorqueNosEscolher.png"
-import Element from "@/_components/carrossel/element";
+import Element from "@/components/carrossel/element";
 import Image from "next/image";
+import Link from "next/link";
 import { FaAppleAlt } from "react-icons/fa";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
 import { MdGirl } from "react-icons/md";
