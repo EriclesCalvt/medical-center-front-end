@@ -13,12 +13,12 @@ export default function Header(){
           height={300}
         />
       </div>
-      <div className="flex justify-between pr-5 pl-5 w-screen">
+      <div className="flex justify-between w-screen">
         <div className="flex flex-col pt-5">
           <p className="text-background text-4xl font-bold">Centro Médico</p>
           <p className="tracking-widest pl-1">ESPECIALIDADES</p>
         </div>
-        <div>
+        <div className="absolute ml-96 pl-96 right-2">
           <SideMenu />
         </div>
       </div>

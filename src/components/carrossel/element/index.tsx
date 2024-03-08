@@ -1,7 +1,7 @@
 interface IProps {
   content: string,
   icon?: any,
-  height?: string,
+  height: string,
   width?: string,
 }
 
