@@ -1,7 +1,6 @@
 import ImageHome from "@/app/_assets/PorqueNosEscolher.png"
 import Element from "@/components/carrossel/element";
 import Image from "next/image";
-import Link from "next/link";
 import { FaAppleAlt } from "react-icons/fa";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
 import { MdGirl } from "react-icons/md";
@@ -15,10 +14,10 @@ export default function Home() {
       </div>
       <div className="flex mt-40 justify-around w-full">
         <div>
-          <p className="text-background text-5xl font-bold">
+          <p className="text-background text-6xl font-bold">
             SERVIÇOS <br /> OFERTADOS
           </p>
-          <p className="tracking-wide text-xl">Mais de 20 especialidades</p>
+          <p className="tracking-wide text-3xl">Mais de 20 especialidades</p>
         </div>
         <div className="grid grid-cols-2 gap-10 text-white font-bold">
           <Element
