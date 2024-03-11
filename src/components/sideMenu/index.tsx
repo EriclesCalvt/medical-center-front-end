@@ -23,7 +23,7 @@ export default function SideMenu(){
           <Link className="cursor-pointer p-2" href={""}>SOBRE NOS</Link>
           <Link className="cursor-pointer p-2" href={""}>FAQ</Link>
         </ul>
-        <div className="mt-60">
+        <div className="mt-56">
           <Image alt="Logo_da_CMED" src={LogoImage}/>
         </div>
       </div>

@@ -8,7 +8,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 export default function Footer(){
 
   return (
-    <div className="flex justify-between pr-20 pl-20 pb-60 bg-button/footer  text-white w-full">
+    <div className="flex justify-between pr-20 pl-20 pb-40 bg-button/footer  text-white w-full">
       <div className="pt-5 ">
         <Image
             alt="Logo da CMED" 
