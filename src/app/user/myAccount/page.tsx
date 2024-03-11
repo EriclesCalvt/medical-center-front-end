@@ -12,7 +12,6 @@ export default function MyAccount(){
       <div className="flex gap-10 flex-wrap">
         <CardConsult />
         <CardConsult />
-        <CardConsult />
       </div>
     </div>
   )
