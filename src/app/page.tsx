@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center w-full bg-background-card overflow-x-hidden pb-60">
       <div className="mt-10 rounded-lg">
-        <Image src={ImageHome} alt="Imagem da pagina inicial" height={1000}/>
+        <Image src={ImageHome} alt="Imagem da pagina inicial" height={1000} priority/>
       </div>
       <div className="flex mt-40 justify-around w-full">
         <div>

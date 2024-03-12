@@ -16,19 +16,33 @@ type TUpdate = {
   neighborhood: string,
 }
 
-export default function CardFormUpdateData(){
+export type THandleSubmit = {
+  MethodSubmit: void
+}
+
+interface ITitle {
+  Title: string
+  MethodSubmit: any
+}
+
+
+export default function CardFormUpdateData({Title, MethodSubmit}: ITitle){
+
   const { 
     register,
     handleSubmit, 
     formState: { errors },
    } = useForm<TUpdate>()
+
+   //logica pra envio de dados
   const onSubmit: SubmitHandler<TUpdate> = (data) => {
-    console.log(data)
-    alert("Paciente Atualizado !")
+    console.log(data);
+    {MethodSubmit()}
   }
+  
   return(
     <div className="flex flex-col items-center gap-10">
-        <h1 className="font-bold text-3xl">Atualizar dados</h1>
+        <h1 className="font-bold text-3xl">{Title}</h1>
       <div className="flex justify-center">
         <form className="grid grid-cols-2 gap-3 place-items-center" onSubmit={handleSubmit(onSubmit)}>
           <div className="flex flex-col pl-10">
@@ -95,7 +109,7 @@ export default function CardFormUpdateData(){
             {errors.neighborhood && <span className="text-red-500 font-bold">Preencha este campo !</span>}
           </div>
           <div className="absolute mt-96 pt-40">
-            <input type="submit" value={"ATUALIZAR"} className="text-white font-bold items-center bg-background w-44 rounded-3xl py-1 cursor-pointer hover:bg-background/90 transition-colors"/>
+            <input type="submit" value={"ENVIAR"} className="text-white font-bold items-center bg-background w-44 rounded-3xl py-1 cursor-pointer hover:bg-background/90 transition-colors"/>
           </div>
         </form>
       </div>

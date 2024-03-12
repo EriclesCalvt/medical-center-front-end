@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Configs(){
   return(
-    <div className="bg-background-card flex flex-col justify-center pl-10 gap-10 h-min pb-5">
+    <div className="bg-background-card flex flex-col justify-center pl-10 gap-10 h-screen pb-5">
       <div>
         <h1 className="text-3xl font-bold">Configurações</h1>
       </div>
