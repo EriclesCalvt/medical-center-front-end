@@ -1,6 +1,31 @@
-export default function CardConsult(){
+'use client'
+
+import { useForm, SubmitHandler } from "react-hook-form"
+
+type Inputs = {
+  patientsName: string,
+  recordPatientRG: string,
+  individualRegistrationCPF: string,
+  dateBirth: number,
+  dateConsult: string,
+  professional: string,
+  speciality: string,
+  hour: string
+}
+
+export default function CardConsultConfirmation(){
+
+  const { 
+    register,
+    handleSubmit, 
+    watch, 
+    formState: { errors },
+   } = useForm<Inputs>()
+  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
+  
+
   return (
-      <div>
+      <form>
         <div className="flex">
           <div className="border border-background bg-white pl-4 flex flex-col h-min p-2 w-full rounded-xl">
             <div>
@@ -45,8 +70,9 @@ export default function CardConsult(){
                 </div>
               </div>
             </div>
+            <input type="submit" value="AGENDAR" className="bg-background rounded-lg text-white font-bold"/>
           </div>
         </div>
-      </div>
+      </form>
   )
 }

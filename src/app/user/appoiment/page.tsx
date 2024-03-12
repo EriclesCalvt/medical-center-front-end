@@ -12,17 +12,7 @@ export default function Appoiment(){
   }
 
   return (
-    <div className="h-screen bg-background-card pl-10 pb-10 flex gap-10 items-center">
-      <RouterIndicator color="bg-button/footer"/>
-      <div className="flex flex-col gap-5 font-bold">
-          <p>Agendar consulta</p>
-          <p>Dados do paciente</p>
-          <p>Especialidade</p>
-          <p>Profissional</p>
-          <p>Horario</p>
-          <p>Confirmação</p>
-        </div>
-        <div className="h-96 border border-black"></div>
+    <div className="h-screen pl-10 pb-10 flex gap-10 items-center">
       <CardFormUpdateData Title="Dados do paciente" MethodSubmit={handleSubmit}/>
     </div>
   )

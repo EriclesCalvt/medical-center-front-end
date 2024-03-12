@@ -15,7 +15,7 @@ export default function SideMenu(){
 
   function sideSlider(){
     return (
-      <div onClick={handleToggleMenu} className="bg-white flex flex-col items-center h-min py-2 w-40 shadow-2xl rounded-2xl transition-all">
+      <div onClick={handleToggleMenu} className="bg-white flex flex-col items-center h-min py-2 w-40 shadow-2xl transition-all">
         <Image className="h-24 w-24 rotate-180 cursor-pointer" src={buttonCloseMenu} alt="botao de fechar menu"/>
         <ul className="flex items-center justify-center flex-col gap-20 mt-20 text-button/footer font-bold transition-all">
           <Link className="cursor-pointer p-2" href={"/who-are-us"}>QUEM SOMOS NOS</Link>

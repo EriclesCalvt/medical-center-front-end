@@ -14,17 +14,7 @@ export default function Speciality(){
 }
 
   return (
-    <div className="h-screen bg-background-card pl-10 flex gap-10 items-center">
-      <RouterIndicator color="bg-button/footer"/>
-      <div className="flex flex-col gap-5 font-bold">
-          <p>Agendar consulta</p>
-          <p>Dados do paciente</p>
-          <p>Especialidade</p>
-          <p>Profissional</p>
-          <p>Horario</p>
-          <p>Confirmação</p>
-        </div>
-      <div className="h-96 border border-black"></div>
+    <div className="h-screen pl-10 flex gap-10 items-center">
       <div className="flex flex-col gap-5">
         <h1 className="font-bold text-3xl">Selecione a especialidade:</h1>
         <div className="text-white grid grid-cols-3 gap-x-12 gap-y-5 px">
