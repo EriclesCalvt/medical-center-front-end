@@ -22,22 +22,22 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-10 text-white font-bold">
           <Element
            height="h-32"
-           width="w-40"
+           width="w-52"
            icon={<MdOutlineHealthAndSafety />} 
            content="Clínico Geral"/>
           <Element
            height="h-32"
-           width="w-40"
+           width="w-52"           
            icon={<FaAppleAlt />} 
            content="Nutrição"/>
           <Element
            height="h-32"
-           width="w-40"
+           width="w-52"           
            icon={<MdGirl />} 
            content="Ginecologia"/>
           <Element
            height="h-32"
-           width="w-40"
+           width="w-52"           
            icon={<MdToys />} 
            content="Pediatria"/>
         </div>

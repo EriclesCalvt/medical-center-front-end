@@ -47,7 +47,7 @@ export default function CardFormRegister(){
           <p className="text-background hover:text-black">Ja foi ou era inscrito ?</p>
         </Link>
         <input type="submit" value={"ENTRAR"}
-        className="text-white bg-background w-36 rounded-3xl p-4 cursor-pointer hover:bg-background/80 transition-colors"/>
+        className="text-white bg-background w-36 rounded-3xl p-4 cursor-pointer hover:bg-background/80 hover:h-16 transition-colors"/>
       </form>
     </div>
   )

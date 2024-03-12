@@ -39,7 +39,7 @@ export default function CardFormLogin(){
         <Link href={"/register"}>
           <p className="text-background hover:text-black">Ainda nao se inscreveu ?</p>
         </Link>
-        <input type="submit" value={"ENTRAR"} className="text-white bg-background w-36 rounded-3xl p-4 cursor-pointer hover:bg-background/80 transition-colors"/>
+        <input type="submit" value={"ENTRAR"} className="text-white bg-background w-36 rounded-3xl p-4 cursor-pointer hover:h-16 transition-all hover:bg-background/90 "/>
       </form>
     </div>
   )
