@@ -10,29 +10,31 @@ import RocketIcon from "@/app/_assets/ios-icons/rocket.png"
 import PillIcon from "@/app/_assets/ios-icons/pill.png"
 import DNAIcon from "@/app/_assets/ios-icons/DNA.png"
 import TermometerIcon from "@/app/_assets/ios-icons/termometer.png"
+import Button from "@/components/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center w-full bg-background-card overflow-x-hidden pb-60">
-      <div className="flex gap-10 mt-10">
-        <div className="flex gap-x-96 mb-20">
-          <CircleDoctorImage image={DoctorImage} icon1={RocketIcon} icon2={PillIcon}/>
-          <div className="flex gap-10 flex-wrap w-96">
-            <span className="font-bold font-sans tracking-wide text-3xl ">
-            Temos aqui as melhores ofertas e profissionais do mercado!
-            </span>
-            <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Mauris imperdiet tincidunt felis sed mollis. 
-            Nam sodales massa nec faucibus viverra. 
-            Phasellus ornare purus nec libero posuere dignissim. 
-            Donec sit amet arcu nibh. 
-            Maecenas gravida condimentum mi nec tristique. 
-            Cras ac ipsum sodales leo tempus volutpat.
-            </span>
+        <div className="flex gap-10 mt-10">
+          <div className="flex gap-x-96 mb-20">
+            <CircleDoctorImage image={DoctorImage} icon1={RocketIcon} icon2={PillIcon}/>
+            <div className="flex gap-10 flex-wrap w-96">
+              <span className="font-bold font-sans tracking-wide text-3xl ">
+              Temos aqui as melhores ofertas e profissionais do mercado!
+              </span>
+              <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Mauris imperdiet tincidunt felis sed mollis. 
+              Nam sodales massa nec faucibus viverra. 
+              Phasellus ornare purus nec libero posuere dignissim. 
+              Donec sit amet arcu nibh. 
+              Maecenas gravida condimentum mi nec tristique. 
+              Cras ac ipsum sodales leo tempus volutpat.
+              </span>
+            </div>
           </div>
         </div>
-      </div>
       <div className="flex gap-x-96 pb-32 pt-32">
         <div className="flex gap-10 flex-wrap w-96">
         <span className="font-bold font-sans tracking-wide text-3xl ">
@@ -47,6 +49,9 @@ export default function Home() {
           Maecenas gravida condimentum mi nec tristique. 
           Cras ac ipsum sodales leo tempus volutpat.
         </span>
+        <Link href={"/login"} className="text-white">
+          <Button content="AGENDAR" height="h-10" width="w-32"/>
+        </Link>
         </div>
         <div>
           <CircleDoctorImage image={TwoDoctorsImage} icon1={DNAIcon} icon2={TermometerIcon}/>

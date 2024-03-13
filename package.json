@@ -18,6 +18,7 @@
     "@mui/x-data-grid": "^6.19.6",
     "@mui/x-date-pickers": "^6.19.6",
     "@types/react-bootstrap": "^0.32.36",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "dayjs": "^1.11.10",
     "next": "14.1.3",
