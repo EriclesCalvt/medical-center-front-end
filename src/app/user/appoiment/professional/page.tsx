@@ -2,7 +2,7 @@ import SelectDoctor from "@/components/SelectDoctor";
 
 export default function Professional() {
   return (
-    <div className="h-screen flex flex-col items-center pt-20 pl-10">
+    <div className="h-screen flex flex-col items-center justify-center mb-10 pl-10">
       <h1 className="font-bold text-3xl">Selecione o médico</h1>
       <div className="flex flex-col gap-10">
         <SelectDoctor name="Ericles Duarte" crm={123456790}/>
